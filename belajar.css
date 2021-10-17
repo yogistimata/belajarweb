@@ -2,7 +2,7 @@ body{
     /* background halaman web*/
     background-color: #67daff;
 }
-.wrapper{ background: gray;
+.wrapper{ 
 
 }
 .container { 
@@ -11,17 +11,19 @@ body{
     padding-right: 20px;
     padding-left: 20px;
     /* background content */
-    background-color: #007ac1;
+    background-color: #f81212;
 }
-.sidebar{
-    width: 400px;
-    height: 600px;
+.sidebar{ 
+    width: 160px;
+    height: 1600px;
     float: left;
+    background-color: rgb(152, 219, 219);
 }
 .content{
-    width: 800px;
-    height: 600px;
+    width: 1040px;
+    height: 1600px;
     float: right;
+    background-color: rgb(212, 243, 138);
 }
 .clear{ clear: both;
 }
@@ -34,4 +36,34 @@ body{
 #logo{
     max-width: 100%;
     height: auto;
+}
+.style{
+    text-align: center;
+}
+.programed-to-win{
+    text-align: center;
+    font-size: 40px;
+    line-height: 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: quantico-bolditalic;
+    color: white;
+    margin-top: 64px;
+    margin-bottom: 50px;
+    font-size: 46px;
+    line-height: 56px;
+    margin-top: 10px;
+}
+.tabular{
+ padding: 10px;
+ color: blue ;
+ font-size: 11px;
+ font-family: cursive;
+ }
+
+.Tabular-header{
+    color: gold;
+     font-size: 11px;
+     font-family: cursive;
 }
